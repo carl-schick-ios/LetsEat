@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE5F1F3D211606CE002753BB /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5F1F3C211606CE002753BB /* ExploreViewController.swift */; };
+		CE5F1F3F211606D7002753BB /* RestaurantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5F1F3E211606D7002753BB /* RestaurantViewController.swift */; };
 		CEF6031E2115440C00B0B802 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF6031D2115440C00B0B802 /* AppDelegate.swift */; };
 		CEF603232115440C00B0B802 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEF603212115440C00B0B802 /* Main.storyboard */; };
 		CEF603282115440F00B0B802 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEF603262115440F00B0B802 /* LaunchScreen.storyboard */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE5F1F3C211606CE002753BB /* ExploreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
+		CE5F1F3E211606D7002753BB /* RestaurantViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantViewController.swift; sourceTree = "<group>"; };
 		CEF6031A2115440C00B0B802 /* LetsEat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LetsEat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEF6031D2115440C00B0B802 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEF603222115440C00B0B802 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -53,6 +57,8 @@
 			isa = PBXGroup;
 			children = (
 				CEF6031D2115440C00B0B802 /* AppDelegate.swift */,
+				CE5F1F3C211606CE002753BB /* ExploreViewController.swift */,
+				CE5F1F3E211606D7002753BB /* RestaurantViewController.swift */,
 				CEF603212115440C00B0B802 /* Main.storyboard */,
 				CEF603262115440F00B0B802 /* LaunchScreen.storyboard */,
 				CEF603292115440F00B0B802 /* Info.plist */,
@@ -132,6 +138,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE5F1F3D211606CE002753BB /* ExploreViewController.swift in Sources */,
+				CE5F1F3F211606D7002753BB /* RestaurantViewController.swift in Sources */,
 				CEF6031E2115440C00B0B802 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
